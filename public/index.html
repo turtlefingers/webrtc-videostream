@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC 화상회의 예제</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>WebRTC 화상회의 (PeerJS)</h1>
+        <div id="controls">
+            <input type="text" id="room-id" placeholder="회의방 이름 입력" />
+            <button id="join-btn">회의 참가</button>
+            <button id="leave-btn" style="display:none;">나가기</button>
+        </div>
+        <div id="videos">
+            <video id="my-video" autoplay playsinline muted></video>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.2/dist/peerjs.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 

@@ -1,0 +1,7 @@
+body { font-family: sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+#container { max-width: 900px; margin: 30px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 24px; }
+h1 { text-align: center; }
+#videos { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
+video { width: 320px; height: 240px; background: #222; border-radius: 8px; }
+#controls { text-align: center; margin-top: 24px; }
+input, button { font-size: 1rem; padding: 8px; margin: 4px; } 
